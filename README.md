@@ -8,6 +8,10 @@ Once data is recovered, the script updates a few mqqt topics. Computes Power bas
 Feel free to use this code as per the license file on github
 All is in english here, but 99% of users mights be French so... Bonjour à vous !
 
+Ce script récupère sur le port série la téléinfo TIC du linky et le poste sur mqtt. Attention, il vous faut avoir une offre TEMPO ou alors changer le contenu du code en conséquence.
+
+Par ailleurs, je récupère les indexs et le temps qui s'écoule entre eux pour calculer la puissance effective réelle (celle qui est facturée au particulier). Vous pouvez donc utiliser cette valeur calculée pour piloter vos automatismes (solaire, eau chaude, charge de voiture ou que sais-je). C'est, je trouve, plus précis que la puissance en VA qui est souvent + élevée que la puissance réelle quand vous avez des pompes ou autres équipements non résistifs.
+
 Disclamer! This code is provided free of charge for you to use. However, errors, bugs or issues might araise.
 Please, take your responsabilities. I cannot be held responsible for any loss that might be induced from the use of this script.
 
