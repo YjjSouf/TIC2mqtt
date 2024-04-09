@@ -7,6 +7,7 @@ To read the tic data, the reference documentation is from ENEDIS: Enedis-NOI-CPT
 Once data is recovered, the script updates a few mqqt topics. Computes Power based on energy consumption as a bonus.
 Feel free to use this code as per the license file on github
 All is in english here, but 99% of users mights be French so... Bonjour à vous !
+
 Disclamer! This code is provided free of charge for you to use. However, errors, bugs or issues might araise.
 Please, take your responsabilities. I cannot be held responsible for any loss that might be induced from the use of this script.
 
